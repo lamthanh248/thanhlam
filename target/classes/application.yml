@@ -1,0 +1,13 @@
+server:
+  port: 9091
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: update
+  datasource:
+    url: jdbc:mysql://localhost:3306/test
+    username: root
+    password:
+  #http://localhost:9091/swagger-ui.html#
+error:
+  message: EmpNo, EmpName, position is required!
